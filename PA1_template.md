@@ -141,7 +141,6 @@ tapply(mean_steps_by_interval$steps, mean_steps_by_interval$day_type, function(x
     c(MIN = min(x), MEAN = mean(x), MEDIAN = median(x), MAX = max(x))
 })
 ```
-
 ```
 ## $Weekday
 ##    MIN   MEAN MEDIAN    MAX 
@@ -151,5 +150,3 @@ tapply(mean_steps_by_interval$steps, mean_steps_by_interval$day_type, function(x
 ##    MIN   MEAN MEDIAN    MAX 
 ##   0.00  42.37  32.34 166.64
 ```
-
-
